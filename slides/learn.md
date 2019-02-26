@@ -6,7 +6,7 @@
 
   <p class="fragment fade-up">MarkDown記法 + HTML + CSSの知見が広がる。</p>
 
-  <p class="fragment fade-up">公開すればスマホでいつでも見れる。</p>
+  <p class="fragment fade-up">公開すればOffice環境なしでスマホでも見れる。</p>
   
   <p class="fragment fade-up">ブラウザから操作が出来て<span class=" fragment color-pink-500">マジでイケてる。</span>
   </p>
