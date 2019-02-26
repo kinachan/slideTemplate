@@ -15,6 +15,8 @@
 
 ### デフォルトの設定
 
+---
+
 
 次のページへ遷移
 
@@ -68,11 +70,44 @@
 
 ---
 
-かっこよくね？
+## コードハイライト
 
-<p>
-  <span class="fragment fade-up">控えめにいって</span>
-  <span class="fragment fade-up grow color-red-500">かっこよくね？</span>
-</p>
+```js
+ const array = [{
+   name: 'きなこちゃん',
+   age: 4,
+   job: 'おさらあらい'
+ }, {
+   name: 'なかつよ',
+   age: 31,
+   job: 'NEET',
+ },{
+   name: 'おちびちゃん',
+   age: 6,
+   job: 'しょうがくせい',
+ }];
+ 
+ const addIsWorked = (item) => {
+ 	item.isWorked = true;
+  return item;
+ }
+
+
+ const results = array
+  .filter(item => item.job !== 'NEET')
+  .map(addIsWorked);
+console.log(results);
+
+```
+
 
 ---
+
+かっこよくね？
+
+  <p class="fragment fade-up">控えめにいって<span class=" fragment fade-up color-pink-500">かっこよくね？</span>
+
+---
+
+### おしまい
+
