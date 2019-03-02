@@ -8,11 +8,15 @@ npm(あればyarn)
 ```
 
 yarn install
+
 #または
+
 npm install
 
 yarn run start
-#また
+
+#または
+
 npm run start
 
 ```
